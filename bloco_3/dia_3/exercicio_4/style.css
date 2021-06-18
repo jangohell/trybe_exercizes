@@ -1,0 +1,33 @@
+div:hover {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+div:nth-of-type(1) {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+div:nth-of-type(2) {
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div:nth-of-type(3) {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+div:nth-of-type(4){
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div:nth-of-type(5) {
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div:nth-of-type(3n) {
+    font-size: 25px;
+}
+div:nth-child(odd) {
+ font-style: italic;
+}
